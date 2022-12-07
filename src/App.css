@@ -1,38 +1,54 @@
-.App {
+.title-container {
+  width: 200px;
+  background-color: white;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 5px;
+  border: 2px solid #545e75;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-emoji-container {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  border-radius: 20px;
+  border: 2px solid #545e75;
+  display: grid;
+  place-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-emoji-item {
+  font-size: 100px;
+}
+
+.emoji-container {
+  background-color: white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 5px;
+  border: 2px solid #545e75;
 }
 
-.App-link {
-  color: #61dafb;
+.emoji {
+  font-size: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.emoji:hover {
+  transform: scale(1.4);
 }
