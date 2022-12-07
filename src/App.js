@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="title-container">
-        <h1 className="title">Emoji Kit 😊</h1>
+        <h1 className="title">Feeling Kit 😊</h1>
       </div>
       <div className="main-emoji-container">
         <div className="main-emoji-item">{emoji}</div>
@@ -38,7 +38,7 @@ function App() {
             setEmoji("😡");
           }}
         >
-        😡
+          😡
         </div>
 
         <div
