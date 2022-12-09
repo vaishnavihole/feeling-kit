@@ -26,9 +26,7 @@
   place-content: center;
 }
 
-.main-emoji-item {
-  font-size: 100px;
-}
+ 
 
 .emoji-container {
   background-color: white;
@@ -69,6 +67,7 @@
   width:400px ;
   padding: 10px;
   border-radius: 30px;
+  margin-top: 100px;
 }
 
 .color-item{
@@ -77,3 +76,43 @@
    width: 70px;
    height: 50px;
 }
+
+.color-item:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.bg-red{
+  background-color: red;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.bg-orange{
+  background-color: orange;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.bg-purple{
+  background-color: purple;
+}
+
+.size-container{
+  background-color: white;
+  width:400px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.size-slider{
+  width: 100%;
+}
+
+
