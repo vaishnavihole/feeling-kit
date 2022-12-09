@@ -1,5 +1,5 @@
 .title-container {
-  width: 200px;
+  width: 250px;
   background-color: white;
   text-align: center;
   margin-left: auto;
@@ -17,7 +17,6 @@
 .main-emoji-container {
   height: 200px;
   width: 200px;
-  background-color: white;
   margin-left: auto;
   margin-right: auto;
   margin-top: 70px;
@@ -35,7 +34,7 @@
   background-color: white;
   display: flex;
   justify-content: space-evenly;
-  width: 40%;
+  width: 350px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 70px;
@@ -51,4 +50,30 @@
 
 .emoji:hover {
   transform: scale(1.4);
+}
+
+.emoji-editor-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.emoji-editor-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.colors-container{
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  width:400px ;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.color-item{
+   border: 1px solid gray;
+   border-radius: 5px;
+   width: 70px;
+   height: 50px;
 }
